@@ -22,7 +22,7 @@ body {
   border-radius: 10px;
   box-shadow: 0 0 0 20px #c6b0e9;
   color: white;
-  padding: 4rem 1rem;
+  padding: 4rem 0;
 }
 
 p,
@@ -82,8 +82,8 @@ button:active {
 #image-wrapper {
   display: flex;
   position: absolute;
+  bottom: -15%;
   width: 100%;
-  background-color: aqua;
   justify-content: center;
   margin-left: 0;
 }
