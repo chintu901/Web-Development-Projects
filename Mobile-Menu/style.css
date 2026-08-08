@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/image-resources/chinese-new-year-background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.main-menu {
+  background-color: antiquewhite;
+  width: 100%;
+  max-width: 300px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px rgb(55, 55, 55);
+}
+
+.main-menu .personal-info {
+  display: flex;
+  height: 100px;
+  margin-bottom: 20px;
+  background: linear-gradient(90deg, rgb(239, 80, 36), rgb(248, 36, 36));
+  border-radius: 10px 10px 50px 0px;
+}
+
+.main-menu .personal-info #pfp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  height: 100%;
+}
+
+.main-menu .personal-info #pfp #cat-pfp {
+  width: 64px;
+  border-radius: 50%;
+  border: 5px solid white;
+}
+
+.main-menu .personal-info #info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 60%;
+  height: 100%;
+}
+
+.main-menu .personal-info #info p {
+  width: 100%;
+  font-weight: normal;
+  color: white;
+}
+
+.info-text-1 {
+  font-size: 1rem;
+}
+
+.info-text-2 {
+  font-size: 0.8rem;
+  margin-top: 1%;
+}
+
+.content-container {
+  margin: 10px 0px;
+  text-align: center;
+}
+
+.dashboard {
+  display: flex;
+  margin: 20px 0px;
+}
+
+.post-sessions {
+  display: flex;
+  margin: 20px 0px;
+}
+
+.live-sessions {
+  display: flex;
+  margin: 20px 0px;
+}
+
+.messages {
+  display: flex;
+  margin: 20px 0px;
+}
+
+.locum-library {
+  display: flex;
+  margin: 20px 0px;
+}
