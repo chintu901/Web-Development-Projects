@@ -19,7 +19,7 @@ body {
   width: 100%;
   max-width: 300px;
   border-radius: 10px;
-  box-shadow: 1px 1px 5px rgb(55, 55, 55);
+  box-shadow: 1px 1px 5px rgb(33, 33, 33);
 }
 
 .main-menu .personal-info {
@@ -66,6 +66,33 @@ body {
 .info-text-2 {
   font-size: 0.8rem;
   margin-top: 1%;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0px;
+}
+
+button {
+  display: flex;
+  align-items: center;
+  border: none;
+  padding: 1rem;
+  gap: 5px;
+  color: white;
+  background: linear-gradient(90deg, rgb(239, 80, 36), rgb(248, 36, 36));
+  border-radius: 5px;
+}
+
+.btn button svg {
+  padding: 0;
+  margin: 0;
+}
+
+.btn button:hover {
+  cursor: pointer;
 }
 
 .content-container {
