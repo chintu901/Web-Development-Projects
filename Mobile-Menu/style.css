@@ -27,7 +27,7 @@ body {
   height: 100px;
   margin-bottom: 20px;
   background: linear-gradient(90deg, rgb(239, 80, 36), rgb(248, 36, 36));
-  border-radius: 10px 10px 50px 0px;
+  border-radius: 10px 10px 0px 30px;
 }
 
 .main-menu .personal-info #pfp {
@@ -73,27 +73,25 @@ body {
   text-align: center;
 }
 
-.dashboard {
+.items {
   display: flex;
-  margin: 20px 0px;
+  align-items: center;
+  padding: 15px 20px;
+  gap: 20px;
 }
 
-.post-sessions {
-  display: flex;
-  margin: 20px 0px;
+.items svg {
+  color: rgb(133, 133, 133);
 }
 
-.live-sessions {
-  display: flex;
-  margin: 20px 0px;
+.items p {
+  font-size: 15px;
+  font-weight: 100;
+  color: rgb(48, 47, 47);
 }
 
-.messages {
-  display: flex;
-  margin: 20px 0px;
-}
-
-.locum-library {
-  display: flex;
-  margin: 20px 0px;
+.items:hover {
+  background-color: rgb(188, 202, 197);
+  border-left: 6px solid rgb(247, 70, 26);
+  color: rgb(247, 70, 26);
 }
