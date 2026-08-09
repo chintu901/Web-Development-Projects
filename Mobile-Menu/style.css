@@ -78,20 +78,17 @@ body {
   align-items: center;
   padding: 15px 20px;
   gap: 20px;
-}
-
-.items svg {
-  color: rgb(133, 133, 133);
+  color: rgb(52, 52, 52);
 }
 
 .items p {
   font-size: 15px;
   font-weight: 100;
-  color: rgb(48, 47, 47);
+  color: rgb(52, 52, 52);
 }
 
 .items:hover {
-  background-color: rgb(188, 202, 197);
+  background-color: rgb(235, 237, 237);
   border-left: 6px solid rgb(247, 70, 26);
-  color: rgb(247, 70, 26);
+  color: rgb(247, 70, 26) !important;
 }
