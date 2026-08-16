@@ -10,31 +10,33 @@ body {
   align-items: center;
   font-family: "Poppins", Arial, Helvetica, sans-serif;
   height: 100vh;
+  background-color: #f5fafb;
 }
 
 main {
-  background-color: aquamarine;
-  height: 500px;
+  height: 533px;
   width: 800px;
+  border-radius: 10px;
+  box-shadow: 0 0 30px 1px rgb(152, 152, 152);
 }
 
 main .cart-item {
   display: flex;
   width: 100%;
   height: 100%;
+  gap: 10px;
   padding: 40px 10px;
 }
 
 main .cart-item .image-side {
   height: 100%;
   width: 40%;
-  background-color: aqua;
 }
 
 main .cart-item .info-side {
   height: 100%;
   width: 60%;
-  padding: 0px 10px;
+  padding: 0px 40px 0px 0px;
 }
 
 #tag {
@@ -43,9 +45,81 @@ main .cart-item .info-side {
   color: white;
   padding: 5px 10px;
   border-radius: 50px;
+  margin-bottom: 10px;
   font-size: x-small;
+}
+
+h2 {
+  margin: 0;
 }
 
 #old-price {
   text-decoration: line-through;
+  margin-top: 20px;
+}
+
+.add-to-cart-btn-area {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0px;
+}
+
+#add-to-cart-btn {
+  width: 100%;
+  padding: 1rem;
+  background-color: #67bed9;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 0 4px 0 #096da8;
+}
+
+#add-to-cart-btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 5px 0 #096da8;
+}
+
+#add-to-cart-btn:active {
+  transform: translateY(6px);
+  box-shadow: 0 0px 0 #096da8;
+  background-color: #56b3cf;
+}
+
+#small-ball {
+  position: relative;
+  padding-inline-start: 1.2em;
+  background-color: aliceblue;
+}
+
+#small-ball::before {
+  content: "";
+  width: 10px;
+  border-radius: 50%;
+  aspect-ratio: 1;
+  background-color: greenyellow;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+.btn-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 0px;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.btn-area button {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 5px;
+  box-shadow: none;
+  border: 1px solid black;
+  background-color: white;
+  gap: 5px;
 }
