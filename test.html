@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .main {
+        height: 450px;
+        width: 300px;
+        background-color: rgb(162, 143, 236);
+      }
+
+      .main .box {
+        position: relative;
+        padding: 50px 30px 40px 30px;
+      }
+
+      .box::before {
+        content: "";
+        position: absolute;
+        background-color: aquamarine;
+        inset: -100px -100px 0 -20px;
+        background: linear-gradient(90deg, #728ed6 0%, #4a6fd7 100%);
+        box-shadow: -5px 5px 15px 0px rgb(74, 111, 215, 0.4);
+        border-bottom-left-radius: 70px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <div class="box"></div>
+    </div>
+  </body>
+</html>
