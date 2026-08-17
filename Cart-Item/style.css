@@ -15,7 +15,7 @@ body {
 
 main {
   background-color: white;
-  height: 533px;
+  height: 515px;
   width: 800px;
   border-radius: 10px;
   box-shadow: 0 0 30px 1px rgb(152, 152, 152);
@@ -58,13 +58,13 @@ h2 {
 
 #old-price {
   text-decoration: line-through;
-  margin-top: 20px;
+  margin-top: 25px;
 }
 
 .add-to-cart-btn-area {
   display: flex;
   justify-content: center;
-  margin: 20px 0px;
+  margin: 25px 0px;
 }
 
 #add-to-cart-btn {
@@ -111,7 +111,7 @@ h2 {
   align-items: center;
   padding: 0px 0px;
   gap: 10px;
-  margin-top: 20px;
+  margin-top: 25px;
 }
 
 .btn-area button {
