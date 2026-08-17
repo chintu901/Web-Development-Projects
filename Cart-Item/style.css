@@ -32,6 +32,8 @@ main .cart-item {
 main .cart-item .image-side {
   height: 100%;
   width: 40%;
+  display: flex;
+  justify-content: center;
 }
 
 main .cart-item .info-side {
@@ -133,4 +135,14 @@ h2 {
 
 .btn-area button:active {
   background-color: #b9d1df;
+}
+
+.image-area {
+  width: 75%;
+  height: 50%;
+  border-radius: 5px;
+}
+
+img {
+  width: 100%;
 }
