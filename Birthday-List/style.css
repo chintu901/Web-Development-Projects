@@ -1,0 +1,118 @@
+*::before,
+*::after,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: rgb(233, 129, 174);
+  color: #1c2033;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.birthday-list-card {
+  width: 300px;
+  height: 500px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 30px 30px 30px rgb(215, 94, 147);
+}
+
+.birthday-list-count {
+  width: 100%;
+  height: 15%;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.birthday-list-count h2 {
+  margin-left: 20px;
+  font-weight: lighter;
+}
+
+.birthday-list-count .icon::after {
+  content: "";
+  width: 15px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  top: 25%;
+  right: 7%;
+  background-color: red;
+  position: absolute;
+  border: 2px solid black;
+}
+
+.birthday-list-count .icon {
+  background-color: rgb(255, 255, 255);
+  width: 40px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  border: 2px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 20px;
+}
+
+.list-area {
+  width: 100%;
+  height: 70%;
+  background-color: aquamarine;
+  padding: 0px 20px;
+}
+
+.list-area ul {
+  list-style-type: none;
+  padding: 20px 0px;
+}
+
+.list-area ul li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.list-area ul li img {
+  width: 50px;
+  border-radius: 50%;
+  aspect-ratio: 1;
+}
+
+.list-area ul li .name-year {
+  background-color: #1c2033;
+  width: 80%;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.list-area ul li .name-year p {
+  background-color: aliceblue;
+  width: 100%;
+  height: 50%;
+}
+
+.list-area ul li .name-year small {
+  background-color: rgb(69, 141, 204);
+  width: 100%;
+  height: 50%;
+}
+
+.btn-area {
+  width: 100%;
+  height: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: centers;
+}
