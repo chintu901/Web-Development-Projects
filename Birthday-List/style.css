@@ -118,4 +118,25 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 0px 20px;
+}
+
+.btn-area button {
+  width: 100%;
+  height: 50px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.btn-area button:hover {
+  cursor: pointer;
+  background-color: rgb(216, 215, 215);
+}
+
+.btn-area button:active {
+  background-color: #c1c0c0;
+}
+
+.btn-area button span {
+  font-size: 15px;
 }
