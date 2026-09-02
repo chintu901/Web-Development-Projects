@@ -67,6 +67,20 @@ main .friend-request-card {
   color: rgb(57, 57, 57);
 }
 
+.view-all-btn::after {
+  content: " ";
+  width: 10px;
+  height: 10px;
+  background-color: aquamarine;
+  top: 0;
+  left: 50%;
+}
+
+hr {
+  width: 90%;
+  margin-left: 5%;
+}
+
 .request-list-area {
   height: 80%;
 }
