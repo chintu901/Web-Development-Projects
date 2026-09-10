@@ -123,9 +123,6 @@ main {
   border: 3px solid rgb(10, 67, 159);
   color: rgb(10, 67, 159);
   border-radius: 5px;
-}
-
-.profile-stats button {
   font-weight: 700;
 }
 
@@ -143,4 +140,10 @@ main {
 .profile-stats .follow-btn.added {
   background-color: rgb(10, 67, 159);
   color: white;
+  padding: 1rem 2.6rem;
+  border-right: 2px solid rgb(10, 67, 159);
+}
+
+.profile-stats .follow-btn.added:active {
+  background-color: rgb(8, 43, 99);
 }
