@@ -5,7 +5,7 @@ viewAllBtn.addEventListener("click", () => {
   birthdayList.classList.toggle("expanded");
 
   if (birthdayList.classList.contains("expanded")) {
-    viewAllBtn.textContent = "View Less";
+    viewAllBtn.textContent = "View less";
   } else {
     viewAllBtn.textContent = "View All";
   }
