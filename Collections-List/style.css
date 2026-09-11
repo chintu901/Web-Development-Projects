@@ -18,3 +18,11 @@ main {
   height: 400px;
   background-color: aquamarine;
 }
+
+.header-pic {
+  width: 50px;
+}
+
+.small-photo-collection img {
+  width: 50px;
+}
