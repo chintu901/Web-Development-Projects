@@ -4,7 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  --primary-bg-color: #091540;
+  --primary-bg-color: #e8d8c9;
   --font-style: sans-serif;
 }
 
@@ -13,14 +13,14 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: rgb(232, 231, 231);
+  background-color: #e8d8c9;
   color: var(--primary-bg-color);
 }
 
 main {
   width: 70%;
   height: 500px;
-  background-color: aquamarine;
+  background-color: #4b607f;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0px 20px 10px rgb(185, 184, 184);
@@ -32,14 +32,24 @@ main {
   padding: 10px 0px;
 }
 
+h1 {
+  color: #e8d8c9;
+}
+
 .collection-category p {
   width: auto;
   padding: 0.3rem;
   border-radius: 5px;
-  background-color: white;
+  background-color: #de671d;
   font-family: var(--font-style);
-  font-weight: normal;
+  font-weight: bold;
   font-size: small;
+}
+
+.collection-category p:hover {
+  cursor: pointer;
+  background-color: #cf5f19;
+  user-select: none;
 }
 
 .collections-list-box .pics-area {
@@ -69,7 +79,7 @@ main {
   align-items: center;
   width: 30%;
   height: 100%;
-  background-color: white;
+  background-color: #54688a;
   border-radius: 15px;
   padding: 15px;
 }
@@ -80,13 +90,17 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: aquamarine;
   overflow: hidden;
   border-radius: 10px;
 }
 
 .image-area img {
   width: 100%;
+}
+
+.image-area img:hover {
+  cursor: pointer;
+  scale: 110%;
 }
 
 .photo-collection .small-photo-collection {
