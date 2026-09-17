@@ -99,7 +99,7 @@ h1 {
 }
 
 .image-area img:hover {
-  transition: 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
   cursor: pointer;
   scale: 110%;
 }
