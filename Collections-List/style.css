@@ -101,7 +101,7 @@ h1 {
 .image-area img:hover {
   transition: all 0.2s ease-in-out;
   cursor: pointer;
-  scale: 110%;
+  scale: 105%;
 }
 
 .photo-collection .small-photo-collection {
@@ -117,6 +117,12 @@ h1 {
   width: 80px;
   height: 65px;
   border-radius: 5px;
+}
+
+.small-photo-collection img:hover {
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+  filter: brightness(80%);
 }
 
 .photo-collection .text-area {
