@@ -23,7 +23,7 @@ main {
   background-color: #415470;
   padding: 20px;
   border-radius: 10px;
-  box-shadow: 0px 20px 10px rgb(185, 184, 184);
+  box-shadow: 5px 10px 10px rgb(142, 146, 179);
 }
 
 .collections-list-box .collection-category {
@@ -44,6 +44,15 @@ h1 {
   font-family: var(--font-style);
   font-weight: bold;
   font-size: small;
+}
+
+.collection-category .default-select {
+  background-color: #364760;
+  border: 2px solid #de671d;
+}
+
+.collection-category .default-select:hover {
+  background-color: #2a374b;
 }
 
 .collection-category p:hover {
