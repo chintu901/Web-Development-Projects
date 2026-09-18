@@ -36,7 +36,10 @@ h1 {
   color: #e8d8c9;
 }
 
-.collection-category p {
+.collection-category .category-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: auto;
   padding: 0.3rem;
   border-radius: 5px;
@@ -46,19 +49,19 @@ h1 {
   font-size: small;
 }
 
-.collection-category .default-select {
+.category-btn.active {
   background-color: #364760;
   border: 2px solid #de671d;
 }
 
-.collection-category .default-select:hover {
-  background-color: #2a374b;
-}
-
-.collection-category p:hover {
+.collection-category .category-btn:hover {
   cursor: pointer;
   background-color: #cf5f19;
   user-select: none;
+}
+
+.category-btn.active:hover {
+  background-color: #2a374b;
 }
 
 .collections-list-box .pics-area {
@@ -91,6 +94,12 @@ h1 {
   background-color: #4b607f;
   border-radius: 15px;
   padding: 15px;
+}
+
+.pics-area .photo-collection:hover {
+  cursor: pointer;
+  background-color: #2a374b;
+  transition: 0.2s ease-in;
 }
 
 .photo-collection .image-area {
