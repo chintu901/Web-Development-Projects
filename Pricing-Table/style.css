@@ -6,6 +6,12 @@
   box-sizing: border-box;
 }
 
+:root {
+  --primary-text-color: #15153c;
+  --faid-text-color: #3a385c;
+  --font-family: "Lato", sans-serif;
+}
+
 body {
   background-color: #fcfcf7;
   height: 100vh;
@@ -13,6 +19,8 @@ body {
   justify-content: center;
   align-items: center;
   filter: blur(80%);
+  color: var(--primary-text-color);
+  font-family: var(--font-family);
 }
 
 .background-elements {
@@ -61,7 +69,7 @@ body {
 .background-elements .yellow-ball {
   height: 90%;
   aspect-ratio: 1;
-  background-color: #fffd74;
+  background-color: #eea449;
   border-radius: 50%;
 }
 .background-elements .blank {
@@ -76,18 +84,94 @@ main {
   justify-content: center;
   align-items: center;
   width: 65%;
-  height: 60%;
-  background-color: rgb(245, 248, 255, 0.8);
+  height: 55%;
+  background-color: rgb(245, 248, 255, 0.9);
   box-shadow: 0px 0px 15px rgb(191, 191, 191);
   z-index: 2;
-  border: 10px solid white;
+  border: 20px solid white;
   border-radius: 10px;
   padding: 30px 30px;
   gap: 40px;
 }
 
 main .monthly-plan {
-  border: 2px solid black;
   width: 30%;
   height: 100%;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+h2 {
+  font:
+    700 3.5rem "Lato",
+    sans-serif;
+  margin: 0;
+  padding: 20px 0px 0px 0px;
+}
+
+.dollar-sign {
+  font-size: 2.3rem;
+  font-weight: 600;
+}
+
+main .plan-description {
+  color: var(--faid-text-color);
+  font-size: small;
+}
+
+main .best-suited-for {
+  padding: 40px 0px;
+  font:
+    normal 1.2rem "Lato",
+    sans-serif;
+}
+
+main .action-btn {
+  padding: 1rem;
+  border-radius: 10px;
+  border: none;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+main .action-btn:hover {
+  cursor: pointer;
+}
+
+main .action-btn.free {
+  background-color: #d58a94;
+}
+
+main .action-btn.free:hover {
+  background-color: #d27884;
+}
+
+main .action-btn.free:active {
+  background-color: #ce6b78;
+}
+
+main .action-btn.standard {
+  background-color: #89cff0;
+}
+
+main .action-btn.standard:hover {
+  background-color: #75c8ee;
+}
+
+main .action-btn.standard:active {
+  background-color: #64b3d7;
+}
+
+main .action-btn.premium {
+  background-color: #eea449;
+}
+
+main .action-btn.premium:hover {
+  background-color: #ea9d3f;
+}
+
+main .action-btn.premium:active {
+  background-color: #dd9033;
 }
