@@ -12,3 +12,9 @@ body {
   align-items: center;
   background-color: #f0f8ff;
 }
+
+main {
+  width: 250px;
+  height: 250px;
+  background-color: #fcfcf7;
+}
